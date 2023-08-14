@@ -19,20 +19,19 @@ section { padding: 70px 0; text-align: center;}
 div { 
 	/*background-color: #777;*/
 	text-align: center;
-	display: inline-block;
-	
+	display: inline-block;		
 	
 }
 
+
 .button:link,
 .button:visited {
+	font-size: 20px;
 	text-transform: uppercase;
 	text-decoration: none;
-	/*color: #ffffff;*/
+	/*color: #ffffff;
 	background-image: linear-gradient(to right, #55c57a, #28b485);
 	-webkit-background-clip: text;
-	color: transparent;
-	
-	
-	
+	color: transparent;*/
+	background-color: #ffffff;	
 }
