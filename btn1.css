@@ -1,3 +1,8 @@
+/*$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;*/
+
+
 * { 
 	margin: 0;
 	padding: 0;
@@ -9,7 +14,7 @@ body {
 	font-family: sans-serif;
 }
 
-section { padding: 30px 0; text-align: center;}
+section { padding: 70px 0; text-align: center;}
 
 div { 
 	/*background-color: #777;*/
@@ -22,6 +27,12 @@ div {
 .button:link,
 .button:visited {
 	text-transform: uppercase;
+	text-decoration: none;
+	/*color: #ffffff;*/
+	background-image: linear-gradient(to right, #55c57a, #28b485);
+	-webkit-background-clip: text;
+	color: transparent;
+	
 	
 	
 }
